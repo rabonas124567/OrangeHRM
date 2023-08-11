@@ -7,10 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class SignOutPage extends CommenMethods {
-    @FindBy( xpath="//img[@class='m--img-rounded m--marginless m--img-centered']")
+    @FindBy( id="welcome")
     public  WebElement Image;
 
-    @FindBy(id="lnkLogout")
+    @FindBy(xpath="//a[text()='Logout']")
     public WebElement SignOutButton;
 
     public SignOutPage(){

@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>GovernmentOfPakistan</groupId>
-    <artifactId>VirtualUniversityOfPakistan</artifactId>
+    <groupId>AsgharNazir</groupId>
+    <artifactId>OrangeHRM</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -101,7 +101,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>VirtualUniversityOfPakistan</projectName>
+                            <projectName>OrangeHRM</projectName>
                             <!-- optional, per documentation set this to "true" to bypass generation of Cucumber Reports entirely, defaults to false if not specified -->
                             <!-- output directory for the generated report -->
                             <outputDirectory>${project.build.directory}</outputDirectory>

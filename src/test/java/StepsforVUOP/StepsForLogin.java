@@ -22,7 +22,6 @@ public class StepsForLogin extends CommenMethods {
 
     @Then("user is successfully logged in")
     public void user_is_successfully_logged_in() {
-        signOutPage.SignOut();
         System.out.println("Test is passed");
     }
 

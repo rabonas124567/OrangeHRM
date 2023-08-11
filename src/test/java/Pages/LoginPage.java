@@ -9,13 +9,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends CommenMethods {
 
-    @FindBy(id="txtStudentID")
+    @FindBy(id="txtUsername")
     public WebElement StudentId;
 
     @FindBy(id="txtPassword")
     public WebElement Password;
 
-    @FindBy(id="ibtnLogin")
+    @FindBy(id="btnLogin")
     public WebElement SignIn;
 
     @FindBy(xpath="findone")
